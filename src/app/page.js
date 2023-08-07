@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Nav/>
-    <div className='ml-60 mr-60 mt-4 flex'>
+    <div className='ml-60 mr-60 mt-4 flex justify-between'>
         <div>
         <p className='text-black text-5xl font-bold'>Stay</p>
         <p className='text-4xl font-bold text-[#7d2ae8]'>in touch</p>

@@ -18,12 +18,12 @@ body {
   font-size: 1rem;
   padding: 0.5em 1em;
   background-color: #000;
-  border: 3px solid yellow;
+  border: 3px solid #ff206e;
   border-radius: 1em;
-  color: #2fff00;
+  color: #e3ff00;
   font-weight: bold;
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-  box-shadow: -5px 5px 0px 0px yellow;
+  box-shadow: -5px 5px 0px 0px #ff206e;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   -ms-border-radius: 1em;
@@ -244,7 +244,7 @@ body {
 
 /* _______________________________________SEARCH BAR__________________________________________ */
 .search-input{
-  margin: 30px 5px 0 100px;
+  margin: 30px 5px 30px 0px;
   border: 2px solid black;
   width: 270px;
   padding: 8px 22px;
@@ -259,9 +259,9 @@ body {
   padding: 10px 22px;
   border-radius: 6px;
   border: none;
-  color: #fff;
+  color: black;
   cursor: pointer;
-  background-color: #7d2ae8;
+  background-color: #0aff99;
   transition: all 0.2s ease;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -287,19 +287,11 @@ body {
 
 .search-btn:hover:before {
   top: -70%;
-  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
-    10% 10%, 18% 18%;
+  background-image: radial-gradient(circle, #ff0000 20%, transparent 20%),    radial-gradient(circle, transparent 20%, #ff8700 20%, transparent 30%),    radial-gradient(circle, #ffd300 20%, transparent 20%),    radial-gradient(circle, #deff0a 20%, transparent 20%),    radial-gradient(circle, transparent 10%, #a1ff0a 15%, transparent 20%),    radial-gradient(circle, #0aff99 20%, transparent 20%),    radial-gradient(circle, #0aefff 20%, transparent 20%),    radial-gradient(circle, #147df5 20%, transparent 20%),    radial-gradient(circle, #580aff 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,    10% 10%, 18% 18%;
   background-position: 50% 120%;
-  animation: greentopBubbles 0.6s ease;
+  animation: greentopBubbles 1s ease;
+  -webkit-animation: greentopBubbles 1s ease;
 }
 
 @keyframes greentopBubbles {
@@ -322,16 +314,11 @@ body {
 
 .search-btn:hover::after {
   bottom: -70%;
-  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),    radial-gradient(circle, #7d2ae8 20%, transparent 20%),    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),    radial-gradient(circle, #7d2ae8 20%, transparent 20%),    radial-gradient(circle, #7d2ae8 20%, transparent 20%),    radial-gradient(circle, #7d2ae8 20%, transparent 20%),    radial-gradient(circle, #7d2ae8 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
   background-position: 50% 0%;
   animation: greenbottomBubbles 0.6s ease;
+  -webkit-animation: greenbottomBubbles 0.6s ease;
 }
 
 @keyframes greenbottomBubbles {
@@ -443,7 +430,7 @@ body {
   width: 100%;
   height: 40px;
   border: 0;
-  background: #ff1654;
+  background: #f72585;
   border-radius: 7px;
   outline: none;
   color: #ffffff;
@@ -522,7 +509,7 @@ body {
   transform: skewX(-15deg);
   border: none;
   margin-top: 20px;
-  margin-left: 200px;
+  float: left;
 }
 
 .cta:focus {
@@ -531,7 +518,7 @@ body {
 
 .cta:hover {
   transition: 0.5s;
-  box-shadow: 10px 10px 0 yellow;
+  box-shadow: 10px 10px 0 #dd1c1a;
 }
 
 .cta .second {
@@ -590,7 +577,7 @@ body {
   }
 
   50% {
-    fill: yellow;
+    fill: #dd1c1a;
   }
 
   100% {
