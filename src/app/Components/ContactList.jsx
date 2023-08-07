@@ -19,7 +19,7 @@ const ContactList = () => {
                               <FontAwesomeIcon
                                    icon={faFilePen}
                                    size='xl'
-                                   style={{ color: "#2d00f7" }}
+                                   style={{ color: "#7014f2" }}
                                    className='mx-2'
                               />
                               <FontAwesomeIcon icon={faTrash} size='xl' style={{ color: "#f71735" }} className='mx-2' />

@@ -4,7 +4,7 @@ import Logo from "./Logo";
 const AddNewContactForm = () => {
      return (
           <div className='flex justify-center w-full'>
-               <div className='w-96'>
+               <div className='w-1/4'>
                     <form className='form_container'>
                          <div className='logo_container'>
                               <Logo />
@@ -37,6 +37,71 @@ const AddNewContactForm = () => {
                                    type='number'
                                    className='input_field'
                                    id='phone_field'
+                              />
+                         </div>
+                         <div className='input_container'>
+                              <label className='input_label' htmlFor='email_field'>
+                                   Email
+                              </label>
+                              <input
+                                   placeholder='WillSmith@abc.com'
+                                   title='Inpit title'
+                                   name='input-name'
+                                   type='email'
+                                   className='input_field'
+                                   id='email_field'
+                              />
+                         </div>
+                         <div className='input_container'>
+                              <label className='input_label' htmlFor='gender_field'>
+                                   Gender
+                              </label>
+                              <input
+                                   placeholder='Male'
+                                   title='Inpit title'
+                                   name='input-name'
+                                   type='text'
+                                   className='input_field'
+                                   id='gender_field'
+                              />
+                         </div>
+                         <div className='input_container'>
+                              <label className='input_label' htmlFor='category_field'>
+                              Groups or Category
+                              </label>
+                              <input
+                                   placeholder='Social'
+                                   title='Inpit title'
+                                   name='input-name'
+                                   type='text'
+                                   className='input_field'
+                                   id='category_field'
+                              />
+                         </div>
+                         <div className='input_container'>
+                              <label className='input_label' htmlFor='address_field'>
+                                   Address
+                              </label>
+                              <input
+                                   placeholder='New York'
+                                   title='Inpit title'
+                                   name='input-name'
+                                   type='text'
+                                   className='input_field'
+                                   id='address_field'
+                              />
+                         </div>
+                         <div className='input_container'>
+                              <label className='input_label' htmlFor='socialmedia_field'>
+                              Social Media Profiles
+                              </label>
+                              <input
+                                   placeholder='www.instagram.com/WillSmith'
+                                   title='Inpit title'
+                                   name='input-name'
+                                   type='text'
+                                   className='input_field'
+                                   id='socialmedia_field'
                               />
                          </div>
 

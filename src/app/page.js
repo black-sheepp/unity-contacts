@@ -7,6 +7,8 @@ import CreateNewContactButton from './Components/CreateNewContactButton'
 import ContactList from './Components/ContactList'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import ContactCard from './Components/ContactCard'
+import EditProfile from './Components/EditProfile'
 config.autoAddCss = false;
 
 export default function Home() {
@@ -22,6 +24,9 @@ export default function Home() {
         <CreateNewContactButton/>
     </div>
     <ContactList/>
+    <ContactCard/>
+    <EditProfile/>
+    <AddNewContactForm/>
     </>
   )
 }
