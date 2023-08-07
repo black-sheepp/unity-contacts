@@ -4,7 +4,7 @@ const CreateNewContactButton = () => {
      return (
           <div>
                <button className='cta'>
-                    <span className='span'>NEW CONTACT</span>
+                    <span className='span'>Add Contact</span>
                     <span className='second'>
                          <svg
                               width='50px'

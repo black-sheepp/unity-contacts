@@ -4,6 +4,10 @@ import Loading from './Components/Loading'
 import SearchBar from './Components/SearchBar'
 import AddNewContactForm from './Components/AddNewContactForm'
 import CreateNewContactButton from './Components/CreateNewContactButton'
+import ContactList from './Components/ContactList'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 export default function Home() {
   return (
@@ -17,7 +21,7 @@ export default function Home() {
         <SearchBar/>
         <CreateNewContactButton/>
     </div>
-    <AddNewContactForm/>
+    <ContactList/>
     </>
   )
 }
