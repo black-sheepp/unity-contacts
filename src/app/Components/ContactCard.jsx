@@ -3,7 +3,7 @@ import React from "react";
 const ContactCard = () => {
      return (
           <div className='flex justify-center'>
-               <div className='flex flex-col w-1/2 bg-[#d0f4de] rounded-xl p-5'>
+               <div className='flex flex-col w-1/2 bg-[#d0f4de] rounded-2xl p-5'>
                     <div className="flex justify-center">
                          <h3 className="text-black text-lg font-bold mb-2">View Contact</h3>
                     </div>

@@ -56,27 +56,20 @@ const AddNewContactForm = () => {
                               <label className='input_label' htmlFor='gender_field'>
                                    Gender
                               </label>
-                              <input
-                                   placeholder='Male'
-                                   title='Inpit title'
-                                   name='input-name'
-                                   type='text'
-                                   className='input_field'
-                                   id='gender_field'
-                              />
+                              <select id='gender_field' className='input_field'>
+                                   <option value='male'>Male</option>
+                                   <option value='female'>Female</option>
+                              </select>
                          </div>
                          <div className='input_container'>
                               <label className='input_label' htmlFor='category_field'>
-                              Groups or Category
+                                   Groups or Category
                               </label>
-                              <input
-                                   placeholder='Social'
-                                   title='Inpit title'
-                                   name='input-name'
-                                   type='text'
-                                   className='input_field'
-                                   id='category_field'
-                              />
+                              <select name="" id="category_field" className='input_field'>
+                                    <option value="office">Office</option>
+                                    <option value="office">Home</option>
+                                    <option value="office">College</option>
+                              </select>
                          </div>
                          <div className='input_container'>
                               <label className='input_label' htmlFor='address_field'>
@@ -93,7 +86,7 @@ const AddNewContactForm = () => {
                          </div>
                          <div className='input_container'>
                               <label className='input_label' htmlFor='socialmedia_field'>
-                              Social Media Profiles
+                                   Social Media Profiles
                               </label>
                               <input
                                    placeholder='www.instagram.com/WillSmith'

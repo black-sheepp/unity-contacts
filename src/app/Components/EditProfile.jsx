@@ -4,7 +4,7 @@ const EditProfile = () => {
   return (
     <div>
       <div className='flex justify-center'>
-               <div className='flex flex-col w-1/2 bg-[#e9ff70] rounded-xl p-5'>
+               <div className='flex flex-col w-1/2 bg-[#e9ff70] rounded-2xl p-5'>
                 <div className='flex justify-center'>
                 <h3 className='text-lg font-bold mb-2'>Edit Contact</h3>
                 </div>
